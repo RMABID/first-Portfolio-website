@@ -184,15 +184,33 @@
         flex-direction: column;
         color: #FD6E0A;
     }
-    .resume-container, footer{
+    .resume-container, footer,
+    .banner{
         flex-direction: column;
         /* gap: 24px; */
     }
     footer,   .about{
         padding: 20px;
     }
+    nav,
+    nav > ul,
     .about-items{
         flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
     }
     .footer-column{
             width: 100%;
