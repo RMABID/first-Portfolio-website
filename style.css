@@ -30,7 +30,7 @@
   }
   
   .section-title{
-      font-size: 35px;
+      font-size: 30px;
       font-weight: bold;
       color: #181818;
   }
@@ -178,4 +178,27 @@
       padding: 10px 20px;
       margin-bottom: 24px;
       border: none;
+  }
+  @media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+        color: #FD6E0A;
+    }
+    .resume-container, footer{
+        flex-direction: column;
+        /* gap: 24px; */
+    }
+    footer,   .about{
+        padding: 20px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .footer-column{
+            width: 100%;
+    }  
+  footer input[type="text"],  footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+
   }
